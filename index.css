@@ -11,6 +11,13 @@
   background-color: #060606;
 }
 
+.main-con {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1440px;
+}
+
 nav {
   width: 100%;
   height: auto;
@@ -317,7 +324,7 @@ nav {
   border-radius: 16px;
 }
 
-.start-building-con {
+.section-block {
   padding: 72px 72px 0 72px;
   width: 100%;
   height: auto;
@@ -517,4 +524,120 @@ nav {
   color: #f1f3f4;
   background-color: rgba(241, 243, 244, 0.08);
   border-radius: 1000px;
+}
+
+.block-card_item_list {
+  display: block;
+  height: auto;
+}
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 36px;
+}
+
+.card-item-up {
+  display: flex;
+  flex-direction: row;
+  column-gap: 48px;
+}
+
+.card-item-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.card-item-title {
+  color: #f1f3f4;
+  font-size: 24px;
+  font-weight: 450;
+  letter-spacing: -0.14;
+}
+
+.card-item-right {
+  aspect-ratio: 1/1;
+  height: 175.5px;
+  width: 175.5px;
+  border-radius: 16px;
+}
+
+.media-wrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.media-wrapper img {
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.card-item-down {
+  height: 1px;
+  background-color: rgba(241, 243, 244, 0.08);
+  width: 100%;
+}
+
+.card-item_list_wrapper {
+  display: grid;
+  border: 1px solid #960606;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 48px;
+  row-gap: 36px;
+}
+
+.footer-con {
+  background-color: #060606;
+  display: flex;
+  justify-content: start;
+  align-content: start;
+  width: 100%;
+  height: auto;
+  border: 1px solid #960606;
+}
+
+.fwrapper {
+  width: 100%;
+  height: auto;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 24px;
+  margin: auto;
+}
+
+.social-link {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  column-gap: 48px;
+  height: auto;
+  padding: 36px 72px;
+  border-bottom: 1px solid rgba(241, 243, 244, 0.08);
+}
+
+.social-link-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-link-wrapper p {
+  color: #f1f3f4;
+  font-size: 17.5px;
+  font-weight: 400;
+  letter-spacing: 0.19px;
+}
+
+.social-link-icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
 }
